@@ -1,0 +1,32 @@
+@media (max-width: 321px) {
+    .navbar-section {
+        min-height: 173vh;
+    }
+    .nabvar-all-content{
+        background-color: #fff;
+    }
+    .navbar-content{
+        padding: 0;
+    }
+    .brand-tagline{
+        display: none;
+    }
+    .hero-section {
+        position: absolute;
+        top: 88px;
+        left: 0;
+        transform: translate(0%,0%);
+        width: 100%;
+    }
+    .hero-heading {
+        letter-spacing: 0px;
+    }
+    .toggle-divider {
+        height: 65px;
+        width: 2px;
+        background-color: #2B292D;
+        opacity: .2;
+        margin-left: 25px;
+        padding: 0;
+    }
+}
